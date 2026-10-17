@@ -320,6 +320,8 @@ if (modManager.isModAdded(ModIds.HOTBAR_NINE)) {
         for (String id : allIds) {
             modManager.addMod(id);
         }
+        // Keep native patches synchronized when this action is used repeatedly.
+        modManager.removeAllPatches();
         modManager.applyAllPatches();
         showEnabledOverlays();
     }
