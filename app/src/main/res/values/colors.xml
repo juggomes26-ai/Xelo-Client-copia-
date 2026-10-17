@@ -2,8 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="glow_green">#4AE0A0</color>
-    <color name="glow_cyan">#00FFFF</color>
+    <color name="glow_green">#FFFFC107</color>
+    <color name="glow_cyan">#FFFFD54F</color>
     <color name="outline">#BDBDBD</color>
     <color name="scrim">#66000000</color>
          
@@ -19,23 +19,23 @@
 <color name="onSurfaceVariant">#FFCCCCCC</color> <!-- Lighter -->
  <!-- More visible -->
 
-<color name="primary">#FFFFFFFF</color>
-<color name="onPrimary">#FF000000</color>
+<color name="primary">#FFFFC107</color>
+<color name="onPrimary">#FF171717</color>
 
-<color name="primaryContainer">#FF1F1F1F</color> <!-- Darker -->
-<color name="onPrimaryContainer">#FFFFFFFF</color>
+<color name="primaryContainer">#FF4A3900</color> <!-- Darker -->
+<color name="onPrimaryContainer">#FFFFE082</color>
 
-<color name="secondary">#FFFFFFFF</color> <!-- More contrast -->
-<color name="onSecondary">#FF000000</color>
+<color name="secondary">#FFFFD54F</color> <!-- More contrast -->
+<color name="onSecondary">#FF171717</color>
 
-<color name="secondaryContainer">#FF2A2A2A</color> <!-- Slightly darker -->
-<color name="onSecondaryContainer">#FFFFFFFF</color>
+<color name="secondaryContainer">#FF332800</color> <!-- Slightly darker -->
+<color name="onSecondaryContainer">#FFFFE082</color>
 
-<color name="tertiary">#FFF5F5F5</color> <!-- Brighter -->
-<color name="onTertiary">#FF000000</color>
+<color name="tertiary">#FFFFE082</color> <!-- Brighter -->
+<color name="onTertiary">#FF171717</color>
 
-<color name="tertiaryContainer">#FF3A3A3A</color>
-<color name="onTertiaryContainer">#FFFFFFFF</color>
+<color name="tertiaryContainer">#FF403300</color>
+<color name="onTertiaryContainer">#FFFFE082</color>
 
 <color name="error">#FFFF6659</color> <!-- More vivid red -->
 <color name="onError">#FFFFFFFF</color> <!-- Better contrast -->
