@@ -466,30 +466,30 @@ public class ModulesFragment extends BaseThemedFragment {
             moduleItems = new ArrayList<>();
 
             moduleItems.add(new ModuleItem(
-                    "Touch Modules",
-                    "Manage Xelo touch mods (AutoSprint, Quick Drop, etc.)",
+                    "Módulos de toque",
+                    "Gerencie os módulos de toque do FKWÜ Client (AutoSprint, Quick Drop etc.)",
                     "inbuilt_mods_entry"
             ));
 
-            moduleItems.add(new ModuleItem("No hurt cam", "allows you to toggle the in-game hurt cam", "Nohurtcam"));
-            moduleItems.add(new ModuleItem("No Fog", "(Doesnt work with fullbright) allows you to toggle the in-game fog", "Nofog"));
-            moduleItems.add(new ModuleItem("Better Brightness", "allows you to see in the dark", "better_brightness"));
-            moduleItems.add(new ModuleItem("Particles Disabler", "allows you to toggle the in-game particles", "particles_disabler"));
-            moduleItems.add(new ModuleItem("Java Fancy Clouds", "Changes the clouds to Java Fancy Clouds", "java_clouds"));
+            moduleItems.add(new ModuleItem("Sem câmera de dano", "Tenta desativar o movimento da câmera ao receber dano", "Nohurtcam"));
+            moduleItems.add(new ModuleItem("Sem neblina", "Tenta desativar a neblina; pode conflitar com brilho máximo", "Nofog"));
+            moduleItems.add(new ModuleItem("Brilho melhorado", "Opção para melhorar a visibilidade em locais escuros", "better_brightness"));
+            moduleItems.add(new ModuleItem("Desativar partículas", "allows you to toggle the in-game particles", "particles_disabler"));
+            moduleItems.add(new ModuleItem("Nuvens estilo Java", "Changes the clouds to Java Fancy Clouds", "java_clouds"));
             moduleItems.add(new ModuleItem("Java Cubemap", "improves the in-game cubemap bringing it abit lower", "java_cubemap"));
-            moduleItems.add(new ModuleItem("Classic Vanilla skins", "Disables the newly added skins by mojang", "classic_skins"));
+            moduleItems.add(new ModuleItem("Skins clássicas", "Disables the newly added skins by mojang", "classic_skins"));
             moduleItems.add(new ModuleItem("No flipbook animation", "optimizes your fps by disabling block animation", "no_flipbook_animations"));
-            moduleItems.add(new ModuleItem("No Shadows", "optimizes your fps by disabling shadows", "no_shadows"));
+            moduleItems.add(new ModuleItem("Sem sombras", "optimizes your fps by disabling shadows", "no_shadows"));
             moduleItems.add(new ModuleItem("Xelo Title", "Changes the Start screen title image", "xelo_title"));
             moduleItems.add(new ModuleItem("2x tpp view", "doubles your third person view radius, letting you see more than you're supposed to", "double_tppview"));
-            moduleItems.add(new ModuleItem("White Block Outline", "changes the block selection outline to white", "white_block_outline"));
-            moduleItems.add(new ModuleItem("No pumpkin overlay", "disables the dark blurry overlay when wearing pumpkin", "no_pumpkin_overlay"));
-            moduleItems.add(new ModuleItem("No spyglass overlay", "disables the spyglass overlay when using spyglass", "no_spyglass_overlay"));
-            moduleItems.add(new ModuleItem("No Eating animation", "disables the eating animation of food items", "no_eating_animation"));
-            moduleItems.add(new ModuleItem("No Bow animation", "disables the bow animation", "no_bow_animation"));
-            moduleItems.add(new ModuleItem("Portal optimizer", "optimizes the portal by tweaking", "portal_optimizer"));
+            moduleItems.add(new ModuleItem("Contorno branco de blocos", "changes the block selection outline to white", "white_block_outline"));
+            moduleItems.add(new ModuleItem("Sem overlay de abóbora", "disables the dark blurry overlay when wearing pumpkin", "no_pumpkin_overlay"));
+            moduleItems.add(new ModuleItem("Sem overlay da luneta", "disables the spyglass overlay when using spyglass", "no_spyglass_overlay"));
+            moduleItems.add(new ModuleItem("Sem animação ao comer", "disables the eating animation of food items", "no_eating_animation"));
+            moduleItems.add(new ModuleItem("Sem animação do arco", "disables the bow animation", "no_bow_animation"));
+            moduleItems.add(new ModuleItem("Otimização de portal", "optimizes the portal by tweaking", "portal_optimizer"));
             moduleItems.add(new ModuleItem("Particle single mapping", "optimizes the particles material by enabling culling and disabling particle fog", "psm"));
-            moduleItems.add(new ModuleItem("Custom CrossHair", "lets you use your own CrossHair", "custom_cross_hair"));
+            moduleItems.add(new ModuleItem("Mira personalizada", "lets you use your own CrossHair", "custom_cross_hair"));
 
             // Load current config state and populate modules
             loadModuleStates();
