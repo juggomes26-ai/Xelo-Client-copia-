@@ -1,13 +1,13 @@
 <resources>
     <string name="app_name">FKWÜ Client</string>
     <string name="xal_token">ms-xal-0000000048183522</string>
-	<string name="default_string">Hello moron!</string>
-	<string name="buildinfo">Release Build</string>
+	<string name="default_string">Bem-vindo ao FKWÜ Client!</string>
+	<string name="buildinfo">Versão de teste</string>
 	<string name="xeloversion">FKWÜ Client v1.0</string>
-	<string name="welcome">FKWÜ Client - Minecraft Bedrock Client</string>
-	<string name="mc_pkgname">minecraft package id:</string>
-<string name="thank_you_support">Thank you for your support</string>
-<string name="version_isolation">Version isolation</string>
+	<string name="welcome">FKWÜ Client - Cliente para Minecraft Bedrock</string>
+	<string name="mc_pkgname">ID do pacote do Minecraft:</string>
+<string name="thank_you_support">Obrigado pelo apoio!</string>
+<string name="version_isolation">Isolamento de versões</string>
 
 <!--crash activity-->
 
@@ -42,12 +42,12 @@
     <string name="logcat_corner_bottom_right">Resize: bottom-right</string>
 
     <!-- Inbuilt Mods -->
-    <string name="inbuilt_mods">Inbuilt Mods</string>
-    <string name="inbuilt_mods_title">Inbuilt Mods</string>
-    <string name="inbuilt_mods_subtitle">Internal mods that run without native libraries</string>
-    <string name="no_inbuilt_mods_available">All inbuilt mods have been added</string>
-    <string name="inbuilt_mod_added">%s added to mods</string>
-    <string name="inbuilt_mod_removed">%s removed from mods</string>
+    <string name="inbuilt_mods">Módulos integrados</string>
+    <string name="inbuilt_mods_title">Módulos integrados</string>
+    <string name="inbuilt_mods_subtitle">Módulos internos que não precisam de bibliotecas nativas</string>
+    <string name="no_inbuilt_mods_available">Todos os módulos integrados já foram adicionados</string>
+    <string name="inbuilt_mod_added">%s adicionado aos módulos</string>
+    <string name="inbuilt_mod_removed">%s removido dos módulos</string>
     <string name="add">Add</string>
     <string name="remove">Remove</string>
 
