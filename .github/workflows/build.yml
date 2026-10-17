@@ -55,14 +55,17 @@ jobs:
         run: ./gradlew testDebugUnitTest --stacktrace
 
       - name: Build Debug APK
+        if: github.event_name == 'workflow_dispatch'
         run: ./gradlew assembleDebug --stacktrace
 
       - name: List Debug APK files
+        if: github.event_name == 'workflow_dispatch'
         run: |
           echo "Debug APK files generated:"
           find app/build/outputs/apk/debug -name "*.apk" -type f || echo "No APK files found"
 
       - name: Upload Debug APK
+        if: github.event_name == 'workflow_dispatch'
         uses: actions/upload-artifact@v4
         with:
           name: origin-debug-apk-${{ github.run_number }}
