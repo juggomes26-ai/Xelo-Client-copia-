@@ -474,22 +474,22 @@ public class ModulesFragment extends BaseThemedFragment {
             moduleItems.add(new ModuleItem("Sem câmera de dano", "Tenta desativar o movimento da câmera ao receber dano", "Nohurtcam"));
             moduleItems.add(new ModuleItem("Sem neblina", "Tenta desativar a neblina; pode conflitar com brilho máximo", "Nofog"));
             moduleItems.add(new ModuleItem("Brilho melhorado", "Opção para melhorar a visibilidade em locais escuros", "better_brightness"));
-            moduleItems.add(new ModuleItem("Desativar partículas", "allows you to toggle the in-game particles", "particles_disabler"));
-            moduleItems.add(new ModuleItem("Nuvens estilo Java", "Changes the clouds to Java Fancy Clouds", "java_clouds"));
-            moduleItems.add(new ModuleItem("Java Cubemap", "improves the in-game cubemap bringing it abit lower", "java_cubemap"));
-            moduleItems.add(new ModuleItem("Skins clássicas", "Disables the newly added skins by mojang", "classic_skins"));
-            moduleItems.add(new ModuleItem("No flipbook animation", "optimizes your fps by disabling block animation", "no_flipbook_animations"));
-            moduleItems.add(new ModuleItem("Sem sombras", "optimizes your fps by disabling shadows", "no_shadows"));
-            moduleItems.add(new ModuleItem("Xelo Title", "Changes the Start screen title image", "xelo_title"));
-            moduleItems.add(new ModuleItem("2x tpp view", "doubles your third person view radius, letting you see more than you're supposed to", "double_tppview"));
-            moduleItems.add(new ModuleItem("Contorno branco de blocos", "changes the block selection outline to white", "white_block_outline"));
-            moduleItems.add(new ModuleItem("Sem overlay de abóbora", "disables the dark blurry overlay when wearing pumpkin", "no_pumpkin_overlay"));
-            moduleItems.add(new ModuleItem("Sem overlay da luneta", "disables the spyglass overlay when using spyglass", "no_spyglass_overlay"));
-            moduleItems.add(new ModuleItem("Sem animação ao comer", "disables the eating animation of food items", "no_eating_animation"));
-            moduleItems.add(new ModuleItem("Sem animação do arco", "disables the bow animation", "no_bow_animation"));
-            moduleItems.add(new ModuleItem("Otimização de portal", "optimizes the portal by tweaking", "portal_optimizer"));
-            moduleItems.add(new ModuleItem("Particle single mapping", "optimizes the particles material by enabling culling and disabling particle fog", "psm"));
-            moduleItems.add(new ModuleItem("Mira personalizada", "lets you use your own CrossHair", "custom_cross_hair"));
+            moduleItems.add(new ModuleItem("Desativar partículas", "Permite ativar ou desativar as partículas do jogo", "particles_disabler"));
+            moduleItems.add(new ModuleItem("Nuvens estilo Java", "Muda as nuvens para o estilo detalhado do Minecraft Java", "java_clouds"));
+            moduleItems.add(new ModuleItem("Cubemap estilo Java", "Ajusta a posição do cubemap, se compatível com a versão do jogo", "java_cubemap"));
+            moduleItems.add(new ModuleItem("Skins clássicas", "Desativa as skins mais recentes, se compatível com a versão do jogo", "classic_skins"));
+            moduleItems.add(new ModuleItem("Sem animações flipbook", "Tenta melhorar o desempenho desativando animações de texturas", "no_flipbook_animations"));
+            moduleItems.add(new ModuleItem("Sem sombras", "Tenta melhorar o desempenho desativando sombras", "no_shadows"));
+            moduleItems.add(new ModuleItem("Título FKWÜ", "Altera a imagem do título inicial, se o recurso estiver disponível", "xelo_title"));
+            moduleItems.add(new ModuleItem("Visão em terceira pessoa 2x", "Tenta ampliar o alcance da visão em terceira pessoa, se compatível", "double_tppview"));
+            moduleItems.add(new ModuleItem("Contorno branco de blocos", "Opção para mudar para branco o contorno de seleção dos blocos", "white_block_outline"));
+            moduleItems.add(new ModuleItem("Sem overlay de abóbora", "Remove a sobreposição visual ao usar uma abóbora, se compatível", "no_pumpkin_overlay"));
+            moduleItems.add(new ModuleItem("Sem overlay da luneta", "Remove a sobreposição ao usar a luneta, se compatível", "no_spyglass_overlay"));
+            moduleItems.add(new ModuleItem("Sem animação ao comer", "Desativa a animação de comer, se compatível", "no_eating_animation"));
+            moduleItems.add(new ModuleItem("Sem animação do arco", "Desativa a animação do arco, se compatível", "no_bow_animation"));
+            moduleItems.add(new ModuleItem("Otimização de portal", "Opção experimental para ajustar os efeitos do portal", "portal_optimizer"));
+            moduleItems.add(new ModuleItem("Mapeamento único de partículas", "Opção experimental para otimizar materiais de partículas", "psm"));
+            moduleItems.add(new ModuleItem("Mira personalizada", "Permite escolher uma imagem personalizada para a mira", "custom_cross_hair"));
 
             // Load current config state and populate modules
             loadModuleStates();
@@ -574,7 +574,7 @@ public class ModulesFragment extends BaseThemedFragment {
     private MaterialButton createViewCrosshairButton() {
         MaterialButton viewButton = new MaterialButton(requireContext());
 
-        viewButton.setText("View Crosshair");
+        viewButton.setText("Ver mira");
         viewButton.setTextSize(16);
         viewButton.setAllCaps(false);
         viewButton.setStateListAnimator(null);
@@ -610,7 +610,7 @@ public class ModulesFragment extends BaseThemedFragment {
 
         // Title
         TextView titleText = new TextView(requireContext());
-        titleText.setText("Crosshair Preview");
+        titleText.setText("Prévia da mira");
         titleText.setTextSize(18);
         titleText.setTypeface(null, Typeface.BOLD);
         titleText.setTextColor(ThemeManager.getInstance().getColor("onSurface"));
