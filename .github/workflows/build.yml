@@ -4,14 +4,11 @@ on:
   push:
     branches: [master, develop, fkwu-client]
   pull_request:
-    branches: [master, develop]
+    branches: [master, develop, fkwu-client]
 
 jobs:
   debug-build:
     runs-on: ubuntu-latest
-    env:
-      JAVA_HOME: /usr/lib/jvm/java-21-openjdk-amd64
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -34,8 +31,9 @@ jobs:
 
       - name: Set up Android SDK
         uses: android-actions/setup-android@v3
-        with:
-          ndk-version: ${{ env.ANDROID_NDK_VERSION }}
+
+      - name: Install Android native build tools
+        run: yes | sdkmanager "platforms;android-36" "build-tools;36.0.0" "ndk;27.2.12479018" "cmake;3.22.1"
 
       - name: Cache Gradle dependencies
         uses: actions/cache@v4
