@@ -11,33 +11,33 @@
 
 <!--crash activity-->
 
-<string name="crash_title">Application crashed</string>
-    <string name="crash_back_to_main">Back to Home</string>
-    <string name="crash_log_file_label">Log file:</string>
-    <string name="crash_log_file_missing">Log file not found or unreadable.</string>
-    <string name="crash_read_failed">Failed to read log: %1$s</string>
-    <string name="crash_emergency_label">Emergency:</string>
-    <string name="crash_no_details">No crash details available.</string>
+<string name="crash_title">O aplicativo parou</string>
+    <string name="crash_back_to_main">Voltar ao início</string>
+    <string name="crash_log_file_label">Arquivo de registro:</string>
+    <string name="crash_log_file_missing">Arquivo de registro não encontrado ou ilegível.</string>
+    <string name="crash_read_failed">Falha ao ler o registro: %1$s</string>
+    <string name="crash_emergency_label">Emergência:</string>
+    <string name="crash_no_details">Nenhum detalhe do erro disponível.</string>
     
         <!-- Popup labels -->
-    <string name="label_current_account">Current Account</string>
-    <string name="label_other_accounts">Other Accounts</string>
+    <string name="label_current_account">Conta atual</string>
+    <string name="label_other_accounts">Outras contas</string>
     
-    <string name="dialog_title_exit_app">Exit App</string>
-    <string name="dialog_message_exit_app">Are you sure you want to exit?</string>
-    <string name="dialog_positive_exit">Exit</string>
-    <string name="show_logcat_overlay">Logcat overlay</string>
+    <string name="dialog_title_exit_app">Sair do aplicativo</string>
+    <string name="dialog_message_exit_app">Tem certeza de que deseja sair?</string>
+    <string name="dialog_positive_exit">Sair</string>
+    <string name="show_logcat_overlay">Sobreposição de registros</string>
     <string name="logcat_live">Logcat: <b>live</b></string>
     <string name="logcat_paused">Logcat: paused</string>
     <!-- Logcat Overlay i18n -->
-    <string name="logcat_filter_hint">Keyword filter</string>
-    <string name="logcat_blacklist_hint">Blacklist (comma-separated)</string>
-    <string name="logcat_filter_clear">Clear filters</string>
-    <string name="logcat_filter">Filter</string>
-    <string name="logcat_autoscroll">Auto-scroll</string>
-    <string name="logcat_pause">Pause</string>
-    <string name="logcat_clear">Clear</string>
-    <string name="logcat_close">Close</string>
+    <string name="logcat_filter_hint">Filtrar por palavra-chave</string>
+    <string name="logcat_blacklist_hint">Lista de bloqueio (separe por vírgulas)</string>
+    <string name="logcat_filter_clear">Limpar filtros</string>
+    <string name="logcat_filter">Filtrar</string>
+    <string name="logcat_autoscroll">Rolagem automática</string>
+    <string name="logcat_pause">Pausar</string>
+    <string name="logcat_clear">Limpar</string>
+    <string name="logcat_close">Fechar</string>
     <string name="logcat_corner_bottom_left">Resize: bottom-left</string>
     <string name="logcat_corner_bottom_right">Resize: bottom-right</string>
 
@@ -48,8 +48,8 @@
     <string name="no_inbuilt_mods_available">Todos os módulos integrados já foram adicionados</string>
     <string name="inbuilt_mod_added">%s adicionado aos módulos</string>
     <string name="inbuilt_mod_removed">%s removido dos módulos</string>
-    <string name="add">Add</string>
-    <string name="remove">Remove</string>
+    <string name="add">Adicionar</string>
+    <string name="remove">Remover</string>
 
     <!-- Inbuilt Mods -->
     <string name="inbuilt_mod_quick_drop">Descarte rápido</string>
@@ -72,33 +72,33 @@
     <string name="inbuilt_mod_hotbarnine">Barra rápida 9</string>
     <string name="inbuilt_mod_hotbarnine_desc">Switches to hotbar slot 9</string>
     <string name="inbuilt_mod_hotbarone_desc">switches to hotbar one</string>
-    <string name="inbuilt_mod_camera">Quick Camera Perspective</string>
-    <string name="inbuilt_mod_camera_desc">Toggle camera view</string>
-    <string name="inbuilt_mod_hud">Hide HUD</string>
-    <string name="inbuilt_mod_hud_desc">Hide hotbar and UI</string>
-    <string name="inbuilt_mod_autosprint">Auto Sprint</string>
-    <string name="inbuilt_mod_autosprint_desc">Toggle sprint on/off</string>
+    <string name="inbuilt_mod_camera">Alternar perspectiva da câmera</string>
+    <string name="inbuilt_mod_camera_desc">Alterna a visão da câmera</string>
+    <string name="inbuilt_mod_hud">Ocultar interface</string>
+    <string name="inbuilt_mod_hud_desc">Oculta a barra rápida e a interface</string>
+    <string name="inbuilt_mod_autosprint">Corrida automática</string>
+    <string name="inbuilt_mod_autosprint_desc">Ativa ou desativa a corrida automática</string>
     <string name="inbuilt_badge">INBUILT</string>
     <string name="autosprint_key_ctrl">Ctrl Left</string>
     <string name="autosprint_key_shift">Shift</string>
     <string name="autosprint_key_label">Sprint Key:</string>
     <string name="configure">Configure</string>
-    <string name="inbuilt_mod_zoom">Zoom</string>
-    <string name="inbuilt_mod_zoom_desc">Hold to zoom in, like OptiFine zoom</string>
-    <string name="zoom_level_label">Zoom Level:</string>
-    <string name="zoom_keybind_label">Zoom Keybind:</string>
-    <string name="zoom_keybind_press">Press any key…</string>
-    <string name="zoom_keybind_tap_to_change">Tap to change</string>
-    <string name="inbuilt_mod_fps_display">FPS Display</string>
-    <string name="inbuilt_mod_fps_display_desc">Shows current frames per second</string>
-    <string name="inbuilt_mod_cps_display">CPS Display</string>
-    <string name="inbuilt_mod_cps_display_desc">Shows clicks per second</string>
+    <string name="inbuilt_mod_zoom">Zoom+</string>
+    <string name="inbuilt_mod_zoom_desc">Segure para aproximar, semelhante ao zoom do OptiFine</string>
+    <string name="zoom_level_label">Nível de zoom:</string>
+    <string name="zoom_keybind_label">Tecla do zoom:</string>
+    <string name="zoom_keybind_press">Pressione uma tecla…</string>
+    <string name="zoom_keybind_tap_to_change">Toque para alterar</string>
+    <string name="inbuilt_mod_fps_display">Mostrar FPS</string>
+    <string name="inbuilt_mod_fps_display_desc">Mostra os quadros por segundo atuais</string>
+    <string name="inbuilt_mod_cps_display">Mostrar CPS</string>
+    <string name="inbuilt_mod_cps_display_desc">Mostra os cliques por segundo</string>
 
 <!-- ResourcepackHandler -->
-<string name="resourcepack_detected_title">Resource Pack Detected</string>
-<string name="resourcepack_detected_message">Found resource pack: %1$s. Apply it?</string>
-<string name="launch_now">Launch Now</string>
-<string name="launch_later">Launch Later</string>
+<string name="resourcepack_detected_title">Pacote de recursos detectado</string>
+<string name="resourcepack_detected_message">Pacote de recursos encontrado: %1$s. Deseja aplicá-lo?</string>
+<string name="launch_now">Iniciar agora</string>
+<string name="launch_later">Iniciar depois</string>
 
 <!-- Previous dialog strings (if missing) -->
 <string name="dialog_title_no_version">No Version</string>
