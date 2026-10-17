@@ -52,24 +52,24 @@
     <string name="remove">Remove</string>
 
     <!-- Inbuilt Mods -->
-    <string name="inbuilt_mod_quick_drop">Quick Drop</string>
-    <string name="inbuilt_mod_quick_drop_desc">Drop items quickly</string>
-    <string name="inbuilt_mod_hotbarone">Hotbar 1</string>
-    <string name="inbuilt_mod_hotbartwo">Hotbar 2</string>
+    <string name="inbuilt_mod_quick_drop">Descarte rápido</string>
+    <string name="inbuilt_mod_quick_drop_desc">Solte itens rapidamente</string>
+    <string name="inbuilt_mod_hotbarone">Barra rápida 1</string>
+    <string name="inbuilt_mod_hotbartwo">Barra rápida 2</string>
     <string name="inbuilt_mod_hotbartwo_desc">Switches to hotbar slot 2</string>
-    <string name="inbuilt_mod_hotbarthree">Hotbar 3</string>
+    <string name="inbuilt_mod_hotbarthree">Barra rápida 3</string>
     <string name="inbuilt_mod_hotbarthree_desc">Switches to hotbar slot 3</string>
-    <string name="inbuilt_mod_hotbarfour">Hotbar 4</string>
+    <string name="inbuilt_mod_hotbarfour">Barra rápida 4</string>
     <string name="inbuilt_mod_hotbarfour_desc">Switches to hotbar slot 4</string>
-    <string name="inbuilt_mod_hotbarfive">Hotbar 5</string>
+    <string name="inbuilt_mod_hotbarfive">Barra rápida 5</string>
     <string name="inbuilt_mod_hotbarfive_desc">Switches to hotbar slot 5</string>
-    <string name="inbuilt_mod_hotbarsix">Hotbar 6</string>
+    <string name="inbuilt_mod_hotbarsix">Barra rápida 6</string>
     <string name="inbuilt_mod_hotbarsix_desc">Switches to hotbar slot 6</string>
-    <string name="inbuilt_mod_hotbarseven">Hotbar 7</string>
+    <string name="inbuilt_mod_hotbarseven">Barra rápida 7</string>
     <string name="inbuilt_mod_hotbarseven_desc">Switches to hotbar slot 7</string>
-    <string name="inbuilt_mod_hotbareight">Hotbar 8</string>
+    <string name="inbuilt_mod_hotbareight">Barra rápida 8</string>
     <string name="inbuilt_mod_hotbareight_desc">Switches to hotbar slot 8</string>
-    <string name="inbuilt_mod_hotbarnine">Hotbar 9</string>
+    <string name="inbuilt_mod_hotbarnine">Barra rápida 9</string>
     <string name="inbuilt_mod_hotbarnine_desc">Switches to hotbar slot 9</string>
     <string name="inbuilt_mod_hotbarone_desc">switches to hotbar one</string>
     <string name="inbuilt_mod_camera">Quick Camera Perspective</string>
