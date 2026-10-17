@@ -1002,6 +1002,11 @@ public class ModulesFragment extends BaseThemedFragment {
             defaultConfig.put("double_tppview", false);
             defaultConfig.put("xelo_title", true);
             defaultConfig.put("custom_cross_hair", false);
+            defaultConfig.put("no_eating_animation", false);
+            defaultConfig.put("no_bow_animation", false);
+            defaultConfig.put("portal_optimizer", false);
+            defaultConfig.put("psm", false);
+            defaultConfig.put("inbuilt_mods_entry", false);
 
             try (FileWriter writer = new FileWriter(configFile)) {
                 writer.write(defaultConfig.toString(2)); // Pretty print with indent
