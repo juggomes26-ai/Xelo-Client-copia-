@@ -970,7 +970,7 @@ public class ModulesFragment extends BaseThemedFragment {
             }
 
         } catch (IOException | JSONException e) {
-            Toast.makeText(requireContext(), "Failed to load module config: " + e.getMessage(), Toast.LENGTH_SHORT).show();
+            Toast.makeText(requireContext(), "Falha ao carregar a configuração dos módulos: " + e.getMessage(), Toast.LENGTH_SHORT).show();
             e.printStackTrace();
         }
     }
@@ -982,7 +982,7 @@ public class ModulesFragment extends BaseThemedFragment {
             if (parentDir != null && !parentDir.exists()) {
                 boolean created = parentDir.mkdirs();
                 if (!created) {
-                    Toast.makeText(requireContext(), "Failed to create config directory", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(requireContext(), "Falha ao criar a pasta de configuração", Toast.LENGTH_SHORT).show();
                     return;
                 }
             }
@@ -1014,7 +1014,7 @@ public class ModulesFragment extends BaseThemedFragment {
             }
 
         } catch (IOException | JSONException e) {
-            Toast.makeText(requireContext(), "Failed to create default config: " + e.getMessage(), Toast.LENGTH_SHORT).show();
+            Toast.makeText(requireContext(), "Falha ao criar a configuração padrão: " + e.getMessage(), Toast.LENGTH_SHORT).show();
             e.printStackTrace();
         }
     }
@@ -1055,7 +1055,7 @@ public class ModulesFragment extends BaseThemedFragment {
             }
 
         } catch (IOException | JSONException e) {
-            Toast.makeText(requireContext(), "Failed to update config: " + e.getMessage(), Toast.LENGTH_SHORT).show();
+            Toast.makeText(requireContext(), "Falha ao atualizar a configuração: " + e.getMessage(), Toast.LENGTH_SHORT).show();
             e.printStackTrace();
         }
     }
