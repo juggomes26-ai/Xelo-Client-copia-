@@ -925,7 +925,7 @@ public class ModulesFragment extends BaseThemedFragment {
     private void onModuleToggle(ModuleItem module, boolean isEnabled) {
         updateConfigFile(module.getConfigKey(), isEnabled);
         Toast.makeText(requireContext(),
-            module.getName() + " " + (isEnabled ? "enabled" : "disabled"),
+            module.getName() + (isEnabled ? " ativado" : " desativado"),
             Toast.LENGTH_SHORT).show();
     
         // --- NEW CODE: Toggle visibility when switch is pressed ---
@@ -1040,7 +1040,7 @@ public class ModulesFragment extends BaseThemedFragment {
                 if (parentDir != null && !parentDir.exists()) {
                     boolean created = parentDir.mkdirs();
                     if (!created) {
-                        Toast.makeText(requireContext(), "Failed to create config directory", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(requireContext(), "Falha ao criar a pasta de configuração", Toast.LENGTH_SHORT).show();
                         return;
                     }
                 }
