@@ -13,7 +13,7 @@ fee0c2372ab5ba521ff939ea1290dd4e206f04bf491a03a8cffa1e29e2272ebd&" width="351" h
 </div>
 
 
-**Xelo-Client** is an advanced minecraft bedrock client for __android__ designed for pvpers, survival players, builders etc. Xelo has alot of features and a crazy fps boost
+**FKWÜ Client** is a customized Android Minecraft Bedrock client based on the open-source Xelo-Client project. This fork is being adapted with a black-and-yellow interface while preserving credit to the upstream project.
 
 > **We are looking for contributors/maintainers to help keep the project alive and speed up the development. You can help by fixing bugs, implementing & improving features, etc.**
 
