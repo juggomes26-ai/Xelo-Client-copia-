@@ -1,107 +1,36 @@
-<p align="center">
-  <img src="https://cdn.discordapp.com/attachments/1152627555493498952/1409840204314837084/Untitled225_20250730203813.png?ex=68aed782&is=68ad8602&hm=
-fee0c2372ab5ba521ff939ea1290dd4e206f04bf491a03a8cffa1e29e2272ebd&" width="351" height="81"/>
-</p>
-<div align="center">
+# FKWÜ Client
 
+Cliente Android para Minecraft Bedrock, baseado no projeto de código aberto [Xelo-Client](https://github.com/Xelo-Client/Xelo-Client). Esta versão personalizada usa uma identidade visual preta e amarela e está em desenvolvimento.
 
-  <img src="https://img.shields.io/github/downloads/Xelo-Client/Xelo-Client/total?label=Downloads" alt="Download Count">
-  <img src="https://github.com/Sukrisus/Xelo-Client/actions/workflows/release.yml/badge.svg?event=push" alt="CI">
+> **Estado do projeto:** em desenvolvimento. Os itens abaixo descrevem recursos presentes na base ou planejados; a presença de uma opção no launcher não garante que o recurso funcione em todas as versões do Minecraft Bedrock. As funções precisam ser verificadas em aparelho e jogo compatíveis.
 
- <img src="https://tokei.rs/b1/github/Xelo-Client/Xelo-Client" alt="LOC">
- 
-</div>
+## Identidade visual
+- Tema FKWÜ preto e amarelo.
+- Textos do launcher e descrições de módulos em português brasileiro.
+- Desenvolvimento isolado na branch `fkwu-client`.
 
+## Recursos da base em avaliação
+- Launcher Android e gerenciamento de versões/configurações herdados da base.
+- Temas e personalização visual.
+- Suporte a pacotes de recursos/shaders conforme a compatibilidade da base.
+- Módulos integrados: Zoom+, corrida automática, alternância de perspectiva, ocultar HUD, descarte rápido, slots da barra rápida, exibição de FPS/CPS e nome em terceira pessoa.
+- Opções de renderização na configuração de módulos: brilho melhorado, sem neblina, redução de partículas/sombras e outras opções experimentais.
+- Importação de imagem para mira personalizada.
 
-**FKWÜ Client** is a customized Android Minecraft Bedrock client based on the open-source Xelo-Client project. This fork is being adapted with a black-and-yellow interface while preserving credit to the upstream project.
+## Recursos que ainda precisam de implementação ou validação
+- Confirmar cada módulo no Minecraft Bedrock e remover/corrigir opções que não tenham efeito real.
+- Revisar desempenho, estabilidade e compatibilidade com versões atuais do jogo.
+- Investigar gravação e reprodução de partidas (Replay). Replay não é anunciado como funcional até existir implementação real e testes.
 
-> **We are looking for contributors/maintainers to help keep the project alive and speed up the development. You can help by fixing bugs, implementing & improving features, etc.**
+## Compilação de teste
+O fluxo de GitHub Actions executa os testes unitários nas alterações. A criação e o envio do APK debug são reservados para execução manual do workflow, para evitar gerar um APK em cada commit.
 
-## Features
-  - [x] Integrated launcher
-  - [x] Export & Import backup system
-  - [x] Clean material you 3 ui design
-  - [x] Export & Import config system
-  - [X] Launcher based modules
-  - [x] Discord RPC
-  - [x] Community made themes support
-  - [x] Log preview
-  - [x] Shader support(materialbinloader2)
-  - [x] Fullbright
-  - [x] Nohurtcam
-  - [x] No fog
-  - [x] Optimizations(particles, shadows, etc)
-  - [x] AMOLED Theme
-  - [ ] In game mod menu
-  - [ ] version manager/installer
-  - [ ] Cosmetics
-  - [x] Options.txt editor
-  - [x] Device info(arch, ram, model, etc)
-  - [x] Commits preview
-  
+1. Abra a aba [Actions](https://github.com/juggomes26-ai/Xelo-Client-copia-/actions).
+2. Selecione **Build Debug APK**.
+3. Use **Run workflow** e escolha a branch `fkwu-client`.
+4. Quando a execução terminar com sucesso, abra a execução e baixe o artefato `origin-debug-apk-...`.
 
-<br>
+Um build bem-sucedido confirma a compilação, não o funcionamento dentro do jogo. Teste no Android e no Minecraft Bedrock antes de considerar uma função pronta.
 
-## Community
-> [!TIP]
-Join the Xelo-Client community to stay updated and engage with other users:
-- [website](https://xeloclient.in)
-- [Discord](https://dsc.gg/xelo)
-
-<br>
-
-
-## Download
-
-<div>
-<a href="https://xeloclient.on">
-    <img src="https://img.shields.io/badge/download-Xelo-white">
-  </a>
-  <a href="https://github.com/Xelo-Client/Xelo-Client/releases">
-    <img src="https://img.shields.io/github/release/Xelo-Client/Xelo-Client?include_prereleases&sort=date&display_name=tag">
-  </a>
-  </a>
-</div>
-<br>
-
-- **Latest Alpha Build**: Download from [Actions](https://github.com/Xelo-Client/Xelo-Client/actions/)
-- **Latest Stable Build**: Download from [Releases](https://xeloclient.in)
-[<img src="https://raw.githubusercontent.com/Kunzisoft/Github-badge/main/get-it-on-github.png" alt="Get it on GitHub" height="80">](https://xeloclient.in)
-
-<br>
-
-## Screenshots
-
-<div>
-  <img src="screenshots/home.png" width="32%" />
-  <img src="screenshots/dashboard.png" width="32%" />
-  <img src="screenshots/settings.png" width="32%" />
-</div>
-<div>
-  <img src="screenshots/themes.png" width="49%" />
-  <img src="screenshots/modules.png" width="49%" />
-</div>
-
-
-## Contributing
-
-We welcome contributions! Please read the [CONTRIBUTING.md](/docs/CONTRIBUTING.md) file to learn how you can get involved.
-
-
-## Get Involved
-
-Contribute themes/capes for Xelo! join [discord](https://dsc.gg/xelo) to get involved:
-
-<a href="https://dsc.gg/xelo">
-    <img src="https://img.shields.io/badge/your-support-black" alt="ur gay">
-</a>
-
-  
-## Like this client? ❤️
-Support it by giving a star ⭐ <br>
-Also, **__[follow](https://github.com/Xelo-Client)__** me for our next creations!
-
-## Contributors
-<a href="https://github.com/Xelo-Client/Xelo-Client/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Xelo-Client/Xelo-Client" />
-</a> 
+## Créditos e licença
+Este projeto deriva do [Xelo-Client](https://github.com/Xelo-Client/Xelo-Client). Consulte a licença e os avisos de direitos autorais mantidos no repositório e preserve os créditos da base original.
