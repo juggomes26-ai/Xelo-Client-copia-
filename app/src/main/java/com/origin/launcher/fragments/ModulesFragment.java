@@ -947,7 +947,8 @@ public class ModulesFragment extends BaseThemedFragment {
                 }
                 // Create default config
                 createDefaultConfig();
-                return;
+                // Continue below to read the freshly created defaults so the
+                // switches match the values saved in config.json on first launch.
             }
 
             // Read existing config
