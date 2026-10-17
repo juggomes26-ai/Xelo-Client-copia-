@@ -28,7 +28,7 @@
     <string name="dialog_positive_exit">Sair</string>
     <string name="show_logcat_overlay">Sobreposição de registros</string>
     <string name="logcat_live">Logcat: <b>live</b></string>
-    <string name="logcat_paused">Logcat: paused</string>
+    <string name="logcat_paused">Logcat: pausado</string>
     <!-- Logcat Overlay i18n -->
     <string name="logcat_filter_hint">Filtrar por palavra-chave</string>
     <string name="logcat_blacklist_hint">Lista de bloqueio (separe por vírgulas)</string>
@@ -38,8 +38,8 @@
     <string name="logcat_pause">Pausar</string>
     <string name="logcat_clear">Limpar</string>
     <string name="logcat_close">Fechar</string>
-    <string name="logcat_corner_bottom_left">Resize: bottom-left</string>
-    <string name="logcat_corner_bottom_right">Resize: bottom-right</string>
+    <string name="logcat_corner_bottom_left">Redimensionar: canto inferior esquerdo</string>
+    <string name="logcat_corner_bottom_right">Redimensionar: canto inferior direito</string>
 
     <!-- Inbuilt Mods -->
     <string name="inbuilt_mods">Módulos integrados</string>
@@ -56,22 +56,22 @@
     <string name="inbuilt_mod_quick_drop_desc">Solte itens rapidamente</string>
     <string name="inbuilt_mod_hotbarone">Barra rápida 1</string>
     <string name="inbuilt_mod_hotbartwo">Barra rápida 2</string>
-    <string name="inbuilt_mod_hotbartwo_desc">Switches to hotbar slot 2</string>
+    <string name="inbuilt_mod_hotbartwo_desc">Seleciona o segundo espaço da barra rápida</string>
     <string name="inbuilt_mod_hotbarthree">Barra rápida 3</string>
-    <string name="inbuilt_mod_hotbarthree_desc">Switches to hotbar slot 3</string>
+    <string name="inbuilt_mod_hotbarthree_desc">Seleciona o terceiro espaço da barra rápida</string>
     <string name="inbuilt_mod_hotbarfour">Barra rápida 4</string>
-    <string name="inbuilt_mod_hotbarfour_desc">Switches to hotbar slot 4</string>
+    <string name="inbuilt_mod_hotbarfour_desc">Seleciona o quarto espaço da barra rápida</string>
     <string name="inbuilt_mod_hotbarfive">Barra rápida 5</string>
-    <string name="inbuilt_mod_hotbarfive_desc">Switches to hotbar slot 5</string>
+    <string name="inbuilt_mod_hotbarfive_desc">Seleciona o quinto espaço da barra rápida</string>
     <string name="inbuilt_mod_hotbarsix">Barra rápida 6</string>
-    <string name="inbuilt_mod_hotbarsix_desc">Switches to hotbar slot 6</string>
+    <string name="inbuilt_mod_hotbarsix_desc">Seleciona o sexto espaço da barra rápida</string>
     <string name="inbuilt_mod_hotbarseven">Barra rápida 7</string>
-    <string name="inbuilt_mod_hotbarseven_desc">Switches to hotbar slot 7</string>
+    <string name="inbuilt_mod_hotbarseven_desc">Seleciona o sétimo espaço da barra rápida</string>
     <string name="inbuilt_mod_hotbareight">Barra rápida 8</string>
-    <string name="inbuilt_mod_hotbareight_desc">Switches to hotbar slot 8</string>
+    <string name="inbuilt_mod_hotbareight_desc">Seleciona o oitavo espaço da barra rápida</string>
     <string name="inbuilt_mod_hotbarnine">Barra rápida 9</string>
-    <string name="inbuilt_mod_hotbarnine_desc">Switches to hotbar slot 9</string>
-    <string name="inbuilt_mod_hotbarone_desc">switches to hotbar one</string>
+    <string name="inbuilt_mod_hotbarnine_desc">Seleciona o nono espaço da barra rápida</string>
+    <string name="inbuilt_mod_hotbarone_desc">Seleciona o primeiro espaço da barra rápida</string>
     <string name="inbuilt_mod_camera">Alternar perspectiva da câmera</string>
     <string name="inbuilt_mod_camera_desc">Alterna a visão da câmera</string>
     <string name="inbuilt_mod_hud">Ocultar interface</string>
@@ -81,8 +81,8 @@
     <string name="inbuilt_badge">INBUILT</string>
     <string name="autosprint_key_ctrl">Ctrl Left</string>
     <string name="autosprint_key_shift">Shift</string>
-    <string name="autosprint_key_label">Sprint Key:</string>
-    <string name="configure">Configure</string>
+    <string name="autosprint_key_label">Tecla de corrida:</string>
+    <string name="configure">Configurar</string>
     <string name="inbuilt_mod_zoom">Zoom+</string>
     <string name="inbuilt_mod_zoom_desc">Segure para aproximar, semelhante ao zoom do OptiFine</string>
     <string name="zoom_level_label">Nível de zoom:</string>
@@ -101,35 +101,35 @@
 <string name="launch_later">Iniciar depois</string>
 
 <!-- Previous dialog strings (if missing) -->
-<string name="dialog_title_no_version">No Version</string>
-<string name="dialog_message_no_version">Please select a version</string>
+<string name="dialog_title_no_version">Nenhuma versão</string>
+<string name="dialog_message_no_version">Selecione uma versão</string>
 <string name="dialog_positive_ok">OK</string>
-<string name="dialog_title_version_isolation">Version Isolation</string>
-<string name="dialog_message_version_isolation">Enable isolation?</string>
-<string name="dialog_positive_enable">Enable</string>
-<string name="dialog_negative_cancel">Cancel</string>
-<string name="dialog_title_launch_failed">Launch Failed</string>
+<string name="dialog_title_version_isolation">Isolamento de versões</string>
+<string name="dialog_message_version_isolation">Ativar o isolamento?</string>
+<string name="dialog_positive_enable">Ativar</string>
+<string name="dialog_negative_cancel">Cancelar</string>
+<string name="dialog_title_launch_failed">Falha ao iniciar</string>
 <string name="dialog_message_launch_failed">Error: %1$s</string>
 <string name="no_mods_enabled">No mods enabled
 
 Add mods from the
 main menu first</string>
-<string name="game_version_select_title">Select Version</string>
-<string name="back">Back</string>
+<string name="game_version_select_title">Selecionar versão</string>
+<string name="back">Voltar</string>
 
 <!-- mod menu -->
-<string name="mod_menu_title">Mod Menu</string>
-<string name="mod_menu_enable_all">Enable All</string>
-<string name="mod_menu_disable_all">Disable All</string>
-<string name="inbuilt_mod_mod_menu">Mod Menu</string>
-<string name="inbuilt_mod_mod_menu_desc">The mod menu button for accessing all mods in-game</string>
+<string name="mod_menu_title">Menu de módulos</string>
+<string name="mod_menu_enable_all">Ativar todos</string>
+<string name="mod_menu_disable_all">Desativar todos</string>
+<string name="inbuilt_mod_mod_menu">Menu de módulos</string>
+<string name="inbuilt_mod_mod_menu_desc">Botão para acessar os módulos durante o jogo</string>
 
 <!-- third person name tag-->
-<string name="inbuilt_mod_nametag">Third Person Name Tag</string>
-<string name="inbuilt_mod_nametag_desc">Shows name tags in third person view</string>
+<string name="inbuilt_mod_nametag">Nome em terceira pessoa</string>
+<string name="inbuilt_mod_nametag_desc">Mostra os nomes na visão em terceira pessoa</string>
 
 <!-- Motion Blur-->
-<string name="inbuilt_mod_motion_blur">Motion Blur</string>
-<string name="inbuilt_mod_motion_blur_desc">Applies motion blur effect</string>
+<string name="inbuilt_mod_motion_blur">Desfoque de movimento</string>
+<string name="inbuilt_mod_motion_blur_desc">Aplica um efeito de desfoque de movimento</string>
 
 </resources>
